@@ -1,0 +1,28 @@
+.movie {
+  display: flex;
+  height: 300rpx;
+  padding: 10px;
+  border-bottom: 1px solid #CCC;
+}
+.movie-img {
+  width: 200rpx;
+  height: 100%;
+  margin-right: 20px;
+}
+.movie-info {
+  flex: 1;
+}
+.movie-title {
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.scroce {
+  color: #faaf00;
+}
+.comment {
+  margin-top: 120rpx;
+  background-color: #E54847;
+  height:60rpx;
+  color:white;
+}

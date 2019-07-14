@@ -1,0 +1,6 @@
+@import '../../style/common';
+.box {
+  height: 200rpx;
+  width: 200rpx;
+  background-color: aquamarine;
+}

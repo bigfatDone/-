@@ -1,0 +1,22 @@
+<view>
+  this is view
+  {{msg}}
+</view>
+<image src="{{img}}" class="banner"/>
+<view wx:for="{{arr}}" wx:key="{{index}}">
+  {{index}}{{item}}
+</view>
+<view wx:if="{{isLogin}}">
+  jetty
+</view>
+<view wx:else>
+  yangshan
+</view>
+<view hidden="{{isLogin}}">
+  hidden
+</view>
+<view class="box">
+
+</view>
+<button size="mini" catchtap="onTap" id="ttt">点击加1</button>
+<view>{{count}}</view>
